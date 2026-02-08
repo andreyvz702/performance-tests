@@ -1,6 +1,6 @@
 from clients.http.client import HTTPClient
 from typing import TypedDict
-from httpx import Response, Client
+from httpx import Response
 
 class CreateUserRequestDict(TypedDict):
     """
