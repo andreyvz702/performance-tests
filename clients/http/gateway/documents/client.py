@@ -8,6 +8,7 @@ class DocumentsGatewayHTTPClient(HTTPClient):
     """
     Клиент для взаимодействия с /api/v1/documents сервиса http-gateway.
     """
+
     def get_tariff_document_api(self, account_id: str) -> Response:
         """
         Получить тарифа по счету.

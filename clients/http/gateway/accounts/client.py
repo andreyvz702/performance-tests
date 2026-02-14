@@ -1,5 +1,5 @@
 from clients.http.client import HTTPClient
-from types import TypedDict
+from typing import TypedDict
 from httpx import Response, QueryParams
 
 
